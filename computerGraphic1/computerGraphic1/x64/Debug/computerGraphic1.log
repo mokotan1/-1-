@@ -1,0 +1,7 @@
+﻿set.obj : error LNK2005: "public: void __cdecl Element::print(void)" (?print@Element@@QEAAXXZ)이(가) main.obj에 이미 정의되어 있습니다.
+set.obj : error LNK2005: "public: void __cdecl Element::set_id(int)" (?set_id@Element@@QEAAXH@Z)이(가) main.obj에 이미 정의되어 있습니다.
+main.obj : error LNK2019: "public: __cdecl Set::~Set(void)" (??1Set@@QEAA@XZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: "public: void __cdecl Set::print(void)" (?print@Set@@QEAAXXZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+set.obj : error LNK2019: "public: __cdecl Element::Element(void)" (??0Element@@QEAA@XZ)"public: __cdecl Set::Set(int)" (??0Set@@QEAA@H@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+set.obj : error LNK2019: "public: __cdecl Element::~Element(void)" (??1Element@@QEAA@XZ)"public: __cdecl Set::Set(int)" (??0Set@@QEAA@H@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\22rla\source\repos\computerGraphic1\x64\Debug\computerGraphic1.exe : fatal error LNK1120: 4개의 확인할 수 없는 외부 참조입니다.
